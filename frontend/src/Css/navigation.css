@@ -1,0 +1,218 @@
+/* Navigation Bar Buttons */
+#nav-card {
+    font-family: "Helvetica", "Arial", "sans-serif";
+    color: rgb(0, 118, 255);
+}
+
+.sign-in-button {
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+}
+
+/* eTimely Logo */
+.logo {
+    height: 85%;
+    width: 85%;
+}
+
+.logo-card {
+    border: none !important;
+}
+
+@media screen and (max-width: 799px) {
+
+    /* Navigation Bar */
+    #nav-card {
+        border: solid 1px grey !important;
+        font-size: 1rem !important;
+        text-align: center;
+        margin-top: 0.85rem;
+        margin-left: 3%;
+        width: 94%;
+    }
+
+    .navigation-bar {
+        width: 100% !important;
+    }
+
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.4rem;
+    }
+    
+    /* eTimely Logo */
+    .logo, .logo-card {
+        display: none;
+    }    
+
+    .mobile-logo {
+        width: 65vw;
+    }
+
+    .mobile-logo-card {
+        width: 94%;  
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1049px)  {
+
+    /* Navigation Bar */
+    #nav-card {
+        font-size: 0.85rem !important;
+        margin-top: 0.85rem;
+        margin-right: 2.2rem !important;
+        margin-left: 1rem;
+    }
+
+    .navigation-bar {
+        margin-left: 0.5rem;
+        width: 80rem;
+        border: none;
+        display: flex;
+    }
+
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.1rem;
+    }
+
+    /* eTimely Logo */
+    .logo-card {
+        margin-left: 2rem;
+    }
+
+    .mobile-logo, .mobile-logo-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1299px)  {
+
+    /* Navigation Bar */
+    #nav-card {
+        font-size: 1rem;
+        margin-top: 0.85rem;
+        margin-right: 4rem !important;
+        margin-left: 1rem;
+    }
+
+    .navigation-bar {
+        margin-left: 1rem;
+        width: 80rem;
+        border: none;
+        display: flex;
+    }
+    
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.4rem;
+    }
+
+    /* eTimely Logo */
+    .logo-card {
+        margin-left: 4rem;
+    }
+
+    .mobile-logo, .mobile-logo-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1619px) {
+
+    /* Navigation Bar */
+    #nav-card {
+        font-size: 1rem !important;
+        margin-top: 0.85rem;
+        margin-right: 5rem !important;
+        margin-left: 1rem;
+    }
+
+    .navigation-bar {
+        margin-left: 3rem;
+        width: 100rem;
+        border: none;
+        display: flex;
+    }
+
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.4rem;
+    }
+
+    /* eTimely Logo */
+    .logo-card {
+        margin-left: 8rem;
+    }
+
+    .mobile-logo, .mobile-logo-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1620px) and (max-width: 1925px) {
+
+    /* Navigation Bar */
+    #nav-card {
+        font-size: 1.05rem;
+        margin-top: 0.85rem;
+        margin-right: 10rem !important;
+        margin-left: 1rem;
+    }
+
+    .navigation-bar {
+        margin-left: 3rem;
+        width: 100rem;
+        border: none;
+        display: flex;
+    }
+
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.5rem;
+    }
+
+    /* eTimely Logo */
+    .logo-card {
+        margin-left: 9rem;
+    }
+
+    .mobile-logo, .mobile-logo-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1926px) {
+
+    /* Navigation Bar */
+    #nav-card {
+        font-size: 1.05rem;
+        margin-top: 0.85rem;
+        margin-right: 14rem !important;
+        margin-left: 1rem;
+    }
+
+    .navigation-bar {
+        margin-left: 3rem;
+        width: 100rem;
+        border: none;
+        display: flex;
+    }
+
+    /* Sign In Button */
+    .sign-in-button {
+        height: 2.5rem;
+    }
+
+    /* eTimely Logo */
+    .logo-card {
+        margin-left: 9rem;
+    }
+
+    .mobile-logo, .mobile-logo-card {
+        display: none;
+    }
+}

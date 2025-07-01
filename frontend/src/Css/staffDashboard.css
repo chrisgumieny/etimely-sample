@@ -1,0 +1,98 @@
+/* Button */
+.styles {
+    background-color: rgb(0, 118, 255);
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    width: 80%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+
+.staff-dash-button {
+    background-color: rgb(0, 118, 255);
+    flex-grow: 2;
+    order: 2;
+}
+
+.staff-dash {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: center;
+}
+
+/* ====================NEXTSHIFT====================== */
+
+.staff-nextshift-bar {
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 118, 255);
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    margin: 5%;
+}
+
+.work-days {
+    justify-content: center;
+}
+
+.staff-nextshift-items {
+    flex-grow: 3%;
+    margin: 3%;
+}
+
+.staff-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 118, 255);
+
+}
+
+/* ====================APPROVAL ITEM======================*/
+.staff-dash-approval {
+    padding-top: 0.5%;
+    margin: 5%;
+    border: 1px solid rgb(0, 118, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* ==================== NOTIF CENTER ==================== */
+
+.staff-notif-center {
+    padding-top: 0.5%;
+    margin: 5%;
+    border: 1px solid rgb(0, 118, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.staff-notif-one {
+    flex-grow: 3%;
+    margin: 3%;
+}
+
+.staff-notif-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 2%;
+    align-content: flex-start;
+
+}

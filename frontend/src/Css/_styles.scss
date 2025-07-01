@@ -1,0 +1,36 @@
+$theme-color-primary: #0077ff;
+
+$theme-text-color-primary: $theme-color-primary;
+$theme-text-color-secondary: #00060d;
+$theme-success-color: #5cb377;
+$theme-warning-color: #EEBF41;
+$theme-info-color: #5b99ea;
+$theme-danger-color: #EC575B;
+
+//override bootstrap
+$theme-colors: (
+  "primary":  $theme-color-primary, 
+  "secondary": $theme-text-color-secondary, 
+  "success": $theme-success-color,
+  "danger": $theme-danger-color,
+  "warning": $theme-warning-color,
+  "info": $theme-info-color,
+);
+
+// button text color
+.btn, .btn-primary {
+  color: white !important;
+}
+
+.far, .fa-eye-slash
+{
+  color: $theme-color-primary !important;
+  // Hover
+  &:hover {
+    color: $theme-text-color-secondary !important;
+  }
+  // Background
+  &:active, &:focus {
+    background-color: white !important;
+  }
+}

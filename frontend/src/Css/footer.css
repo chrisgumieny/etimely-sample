@@ -1,0 +1,66 @@
+/* Footer */
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+#footer-button {
+    font-family: "Helvetica", "Arial", "sans-serif";
+    color: rgb(109, 118, 128) !important;
+}
+
+
+@media screen and (max-width: 799px) {
+
+    .footer {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer Buttons */
+    .footer-button-group {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 4%;
+    }
+
+    #footer-button {
+        font-size: 0.75rem;
+        margin-right: 3vw;
+        width: 30%;
+    }
+
+    /* eTimely Logo */
+    .footer-logo {
+        max-width: 45%;
+        margin-bottom: auto;
+
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer Buttons */
+    .footer-button-group {
+        margin-right: auto;
+    }
+
+    #footer-button {
+        font-size: 0.95rem;
+        margin-right: 2vw;
+        margin-left: 1vw;
+    }
+
+    /* eTimely Logo */
+    .footer-logo {
+        max-width: 15%;
+        margin-left: auto;
+    }
+}

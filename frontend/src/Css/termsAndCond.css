@@ -1,0 +1,55 @@
+/* Text */
+.terms-h2 {
+    padding-top: 5vw;
+    color: rgb(0, 118, 255);
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.terms-p {
+    color: rgb(109, 118, 128) !important;
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.agreement {
+    height: 35vw;
+    width: 25vw;
+}
+
+@media screen and (max-width: 799px) {
+
+    .terms-style {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .agreement {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 7vw;
+        padding-bottom: 3vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .terms-style {
+        display: flex;
+        flex-direction: row-reverse !important;
+        padding-left: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: auto;
+    }
+
+    .agreement {
+        margin-right: auto;
+        margin-left: 5%;
+        margin-top: 1vw;
+        padding-top: 4vw;
+        padding-bottom: 6vw;
+    }
+}

@@ -1,0 +1,45 @@
+/* Event Schedule Card Text */
+.MuiTypography-noWrap {
+  color: white !important;
+}
+
+.css-z1doim-MuiTypography-root {
+  color: black !important;
+}
+
+/* Event Edit Window Text */
+.css-z0slbs-MuiTypography-root {
+  color: grey !important;
+}
+
+/* Event Edit X Button */
+.css-1db085k-MuiSvgIcon-root {
+  color: white !important;
+}
+
+/* Event Edit Delete / Cancel Buttons */
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
+  color: white !important;
+}
+
+/* Button */
+.styles {
+  background-color: rgb(0, 118, 255);
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  width: 80%;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.schedule-screen {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2%;
+  justify-content: center;
+}

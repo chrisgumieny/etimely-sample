@@ -1,0 +1,30 @@
+.announcementCard {
+    color: #0077ff;
+    justify-content: center;
+    text-align: center;
+    /* Make all cards centered */
+    /* If text in cards is small, show the same height and width  */
+    height: 100%;
+    width: 100%;
+}
+
+.nothingToSeeHere {
+    color: rgb(109, 118, 128);
+    justify-content: center;
+    text-align: center;
+    /* Make all cards centered */
+    margin: auto;
+}
+
+.announcementText {
+    text-align: left;
+}
+
+/* width for each announcement card */
+.announcementGrid {
+    width: 100%;
+}
+
+.deleteButton {
+    text-align: right;
+}

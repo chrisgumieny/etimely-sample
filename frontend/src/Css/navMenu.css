@@ -1,0 +1,9 @@
+.navMenu-container{
+    max-width: 'lg';
+    text-align:'center';
+    background-color: 'lightgray';
+}
+
+.nevMenu-link{
+    background-color: rgb(207, 207, 207);
+}
